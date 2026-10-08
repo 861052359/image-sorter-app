@@ -11,6 +11,10 @@
   <a href="PRIVACY.md"><img alt="Privacy: 100% local" src="https://img.shields.io/badge/privacy-100%25%20local-0EA5E9"></a>
 </p>
 
+<p align="center">
+  <a href="README.md">中文</a>
+</p>
+
 PhotoSwipe is an open-source Android app that turns gallery cleanup into a satisfying card-stack swipe game. Each photo from your camera roll is one card. Flick it in one of four directions to **delete**, **keep**, **favorite**, or **move to a custom folder**, then move on to the next one. Deletes are batched so Android only asks for confirmation once per batch instead of once per photo.
 
 The project is intentionally small, dependency-light, and 100 % local — no accounts, no analytics, no network calls.

@@ -2,121 +2,121 @@
 <resources>
     <string name="app_name">PhotoSwipe</string>
 
-    <!-- 引导 / 权限 -->
-    <string name="welcome_title">整理你的照片</string>
-    <string name="welcome_subtitle">滑动浏览相册，快速清理照片。</string>
-    <string name="grant_access">授予照片访问权限</string>
-    <string name="permission_required">需要照片访问权限才能开始整理。</string>
-    <string name="open_settings">打开系统设置</string>
+    <!-- Onboarding / permissions -->
+    <string name="welcome_title">Sort your photos</string>
+    <string name="welcome_subtitle">Swipe through your gallery and clean it up in seconds.</string>
+    <string name="grant_access">Grant photo access</string>
+    <string name="permission_required">Photo access is required to start sorting.</string>
+    <string name="open_settings">Open system settings</string>
 
-    <!-- 底部导航 -->
-    <string name="nav_swipe">滑动</string>
-    <string name="nav_folders">文件夹</string>
-    <string name="nav_settings">设置</string>
+    <!-- Bottom navigation -->
+    <string name="nav_swipe">Swipe</string>
+    <string name="nav_folders">Folders</string>
+    <string name="nav_settings">Settings</string>
 
-    <!-- 滑动界面 -->
-    <string name="swipe_left_hint">删除</string>
-    <string name="swipe_right_hint">保留</string>
-    <string name="swipe_up_hint">收藏</string>
-    <string name="swipe_down_hint">分类到…</string>
-    <string name="empty_state_title">全部完成</string>
-    <string name="empty_state_subtitle">没有更多符合当前筛选条件的照片。</string>
-    <string name="empty_state_summary">本次会话</string>
-    <string name="stats_deleted">已删除</string>
-    <string name="stats_kept">已保留</string>
-    <string name="stats_favorited">已收藏</string>
-    <string name="stats_moved">已分类</string>
-    <string name="undo">撤销</string>
-    <string name="pick_folder_title">移动到哪个文件夹？</string>
-    <string name="pick_folder_subtitle">选择一个目标文件夹。你可以在文件夹标签页添加新文件夹。</string>
-    <string name="no_folders_yet">暂无文件夹</string>
-    <string name="no_folders_yet_hint">使用"添加文件夹"按钮在所选存储根目录下创建文件夹。</string>
-    <string name="reload">重新加载</string>
-    <string name="move_here">移动到这里</string>
-    <string name="flush_pending">确认删除 (%1$d)</string>
-    <string name="pending_delete_a11y">%1$d 张照片已加入删除队列。点击确认。</string>
-    <string name="photo_card_a11y">照片卡片。向左滑动删除，向右滑动保留，向上滑动收藏，向下滑动分类。长按可预览。</string>
-    <string name="preview_close">关闭预览</string>
+    <!-- Swipe screen -->
+    <string name="swipe_left_hint">Delete</string>
+    <string name="swipe_right_hint">Keep</string>
+    <string name="swipe_up_hint">Favorite</string>
+    <string name="swipe_down_hint">Sort to…</string>
+    <string name="empty_state_title">All caught up</string>
+    <string name="empty_state_subtitle">No more photos match the current filter.</string>
+    <string name="empty_state_summary">This session</string>
+    <string name="stats_deleted">Deleted</string>
+    <string name="stats_kept">Kept</string>
+    <string name="stats_favorited">Favorites</string>
+    <string name="stats_moved">Sorted</string>
+    <string name="undo">Undo</string>
+    <string name="pick_folder_title">Move to which folder?</string>
+    <string name="pick_folder_subtitle">Pick a destination. You can add new folders from the Folders tab.</string>
+    <string name="no_folders_yet">No folders yet</string>
+    <string name="no_folders_yet_hint">Use the "Add folder" button to create one under your chosen storage root.</string>
+    <string name="reload">Reload</string>
+    <string name="move_here">Move here</string>
+    <string name="flush_pending">Confirm delete (%1$d)</string>
+    <string name="pending_delete_a11y">%1$d photos queued for delete. Tap to confirm.</string>
+    <string name="photo_card_a11y">Photo card. Drag left to delete, right to keep, up to favorite, down to sort. Long-press to preview.</string>
+    <string name="preview_close">Close preview</string>
 
-    <!-- 文件夹 -->
-    <string name="folders_title">文件夹</string>
-    <string name="folders_subtitle">文件夹位于所选存储根目录下，会显示在所有相册应用中。</string>
-    <string name="add_folder">添加文件夹</string>
-    <string name="add_folder_title">新建文件夹</string>
-    <string name="rename_folder_title">重命名"%1$s"</string>
-    <string name="remove_folder_title">删除文件夹？</string>
-    <string name="remove_folder_subtitle">"%1$s"将从应用中移除。已移动到其中的照片仍会保留在相册中。</string>
-    <string name="folder_name_label">文件夹名称</string>
-    <string name="folder_name_placeholder">例如：旅行 2024</string>
-    <string name="folder_path_preview">路径：%1$s</string>
-    <string name="create">创建</string>
-    <string name="rename">重命名</string>
-    <string name="remove">删除</string>
-    <string name="use_as_favorites">收藏</string>
-    <string name="use_as_default_down">默认向下</string>
+    <!-- Folders -->
+    <string name="folders_title">Folders</string>
+    <string name="folders_subtitle">Folders live under your chosen storage root and show up in every gallery app.</string>
+    <string name="add_folder">Add folder</string>
+    <string name="add_folder_title">New folder</string>
+    <string name="rename_folder_title">Rename "%1$s"</string>
+    <string name="remove_folder_title">Remove folder?</string>
+    <string name="remove_folder_subtitle">"%1$s" will be removed from the app. Photos that were already moved into it stay in your gallery.</string>
+    <string name="folder_name_label">Folder name</string>
+    <string name="folder_name_placeholder">e.g. Travel 2024</string>
+    <string name="folder_path_preview">Path: %1$s</string>
+    <string name="create">Create</string>
+    <string name="rename">Rename</string>
+    <string name="remove">Remove</string>
+    <string name="use_as_favorites">Favorites</string>
+    <string name="use_as_default_down">Default down</string>
 
-    <!-- 设置 -->
-    <string name="settings_title">设置</string>
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
 
-    <string name="settings_filter_header">筛选</string>
-    <string name="settings_date_range">日期范围</string>
-    <string name="settings_date_range_subtitle">将队列限制为相册中最近一段时间的照片。</string>
-    <string name="settings_date_any">全部时间</string>
-    <string name="settings_date_today">今天</string>
-    <string name="settings_date_week">最近 7 天</string>
-    <string name="settings_date_month">最近 30 天</string>
-    <string name="settings_date_year">最近一年</string>
-    <string name="settings_date_custom">自定义范围</string>
-    <string name="settings_sort_order">排序方式</string>
-    <string name="settings_sort_order_subtitle">决定滑动队列中照片的显示顺序。</string>
-    <string name="settings_include_videos">包含视频</string>
-    <string name="settings_include_videos_subtitle">将视频和片段添加到队列中。</string>
-    <string name="settings_skip_reviewed">跳过已审阅</string>
-    <string name="settings_skip_reviewed_subtitle">隐藏之前会话中已滑动过的照片。</string>
+    <string name="settings_filter_header">Filter</string>
+    <string name="settings_date_range">Date range</string>
+    <string name="settings_date_range_subtitle">Limit the queue to a recent slice of your library.</string>
+    <string name="settings_date_any">Any time</string>
+    <string name="settings_date_today">Today</string>
+    <string name="settings_date_week">Last 7 days</string>
+    <string name="settings_date_month">Last 30 days</string>
+    <string name="settings_date_year">Last year</string>
+    <string name="settings_date_custom">Custom range</string>
+    <string name="settings_sort_order">Sort order</string>
+    <string name="settings_sort_order_subtitle">Decide which photos surface first in the swipe queue.</string>
+    <string name="settings_include_videos">Include videos</string>
+    <string name="settings_include_videos_subtitle">Add movies and clips to the queue.</string>
+    <string name="settings_skip_reviewed">Skip already reviewed</string>
+    <string name="settings_skip_reviewed_subtitle">Hide photos you have already swiped in past sessions.</string>
 
-    <string name="settings_behavior_header">行为</string>
-    <string name="settings_batch_size">删除批次大小</string>
-    <string name="settings_batch_size_subtitle">每 %1$d 次滑动触发一次 Android 删除提示，而不是每张照片都提示。</string>
-    <string name="settings_drag_threshold">拖动灵敏度</string>
-    <string name="settings_drag_threshold_subtitle">提交滑动所需的拖动距离（%1$d 像素）。</string>
-    <string name="settings_stack_depth">卡片堆叠深度</string>
-    <string name="settings_stack_depth_subtitle">活动卡片后面显示的预览卡片数量（%1$d）。</string>
-    <string name="settings_haptics">触觉反馈</string>
-    <string name="settings_haptics_subtitle">每次滑动后轻微震动。</string>
-    <string name="settings_show_hints">方向提示</string>
-    <string name="settings_show_hints_subtitle">在活动卡片下方显示四个小标签。</string>
-    <string name="settings_show_metadata">照片元数据叠加</string>
-    <string name="settings_show_metadata_subtitle">在每张卡片底部显示文件名、日期和大小。</string>
-    <string name="settings_reduce_motion">减少动画</string>
-    <string name="settings_reduce_motion_subtitle">用瞬时过渡替代弹簧动画。适合对动画敏感的用户。</string>
+    <string name="settings_behavior_header">Behavior</string>
+    <string name="settings_batch_size">Delete batch size</string>
+    <string name="settings_batch_size_subtitle">Trigger the Android delete prompt once every %1$d swipes instead of once per photo.</string>
+    <string name="settings_drag_threshold">Drag sensitivity</string>
+    <string name="settings_drag_threshold_subtitle">Pixels of drag required to commit a swipe (%1$d dp).</string>
+    <string name="settings_stack_depth">Card stack depth</string>
+    <string name="settings_stack_depth_subtitle">Number of preview cards behind the active card (%1$d).</string>
+    <string name="settings_haptics">Haptic feedback</string>
+    <string name="settings_haptics_subtitle">Tiny vibration after each swipe.</string>
+    <string name="settings_show_hints">Direction hints</string>
+    <string name="settings_show_hints_subtitle">Show the four small labels under the active card.</string>
+    <string name="settings_show_metadata">Photo metadata overlay</string>
+    <string name="settings_show_metadata_subtitle">Display file name, date and size at the bottom of each card.</string>
+    <string name="settings_reduce_motion">Reduce motion</string>
+    <string name="settings_reduce_motion_subtitle">Replace spring physics with instant transitions. Good for motion sensitivity.</string>
 
-    <string name="settings_storage_header">存储</string>
-    <string name="settings_folder_root">文件夹根目录</string>
-    <string name="settings_folder_root_subtitle">PhotoSwipe 创建新相册文件夹的位置。</string>
+    <string name="settings_storage_header">Storage</string>
+    <string name="settings_folder_root">Folder root</string>
+    <string name="settings_folder_root_subtitle">Where PhotoSwipe creates new gallery folders.</string>
 
-    <string name="settings_appearance_header">外观</string>
-    <string name="settings_theme">主题</string>
-    <string name="settings_theme_subtitle">选择 PhotoSwipe 的外观。</string>
-    <string name="settings_theme_system">跟随系统</string>
-    <string name="settings_theme_light">浅色</string>
-    <string name="settings_theme_dark">深色</string>
-    <string name="settings_dynamic_color">Material You 动态颜色</string>
-    <string name="settings_dynamic_color_subtitle">在 Android 12+ 设备上匹配壁纸颜色。</string>
+    <string name="settings_appearance_header">Appearance</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_subtitle">Choose how PhotoSwipe looks.</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_dynamic_color">Material You dynamic color</string>
+    <string name="settings_dynamic_color_subtitle">Match your Android 12+ wallpaper palette when available.</string>
 
-    <string name="settings_data_header">数据</string>
-    <string name="settings_reset_reviewed">重置已审阅列表</string>
-    <string name="settings_reset_reviewed_confirm">这将解锁之前滑动过的照片，使它们重新出现在队列中。你的相册不会被修改。</string>
-    <string name="settings_reset_done">已审阅列表已清除</string>
-    <string name="settings_reset_all">重置所有设置</string>
-    <string name="settings_reset_all_confirm">所有设置恢复为默认值。你的文件夹、已审阅列表和相册不受影响。</string>
+    <string name="settings_data_header">Data</string>
+    <string name="settings_reset_reviewed">Reset reviewed list</string>
+    <string name="settings_reset_reviewed_confirm">This unlocks photos you have previously swiped so they appear in the queue again. Your gallery is not modified.</string>
+    <string name="settings_reset_done">Reviewed list cleared</string>
+    <string name="settings_reset_all">Reset all settings</string>
+    <string name="settings_reset_all_confirm">All settings return to their defaults. Your folders, reviewed list and gallery are untouched.</string>
 
-    <string name="settings_about_header">关于</string>
-    <string name="settings_about_version">版本 %1$s（构建 %2$d）</string>
-    <string name="settings_about_blurb">PhotoSwipe 是一款开源的 Android 照片整理应用。隐私优先，无广告，无追踪。</string>
-    <string name="settings_about_repo">打开 GitHub 仓库</string>
+    <string name="settings_about_header">About</string>
+    <string name="settings_about_version">Version %1$s (build %2$d)</string>
+    <string name="settings_about_blurb">PhotoSwipe is an open-source photo sorter for Android. Privacy-first, no tracking, no ads.</string>
+    <string name="settings_about_repo">Open the GitHub repository</string>
 
-    <string name="dialog_confirm">确认</string>
-    <string name="dialog_cancel">取消</string>
-    <string name="cancel">取消</string>
-    <string name="ok">确定</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
 </resources>
