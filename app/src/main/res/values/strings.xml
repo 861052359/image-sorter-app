@@ -30,7 +30,7 @@
     <string name="pick_folder_title">Move to which folder?</string>
     <string name="pick_folder_subtitle">Pick a destination. You can add new folders from the Folders tab.</string>
     <string name="no_folders_yet">No folders yet</string>
-    <string name="no_folders_yet_hint">Use the “Add folder” button to create one under your chosen storage root.</string>
+    <string name="no_folders_yet_hint">Use the "Add folder" button to create one under your chosen storage root.</string>
     <string name="reload">Reload</string>
     <string name="move_here">Move here</string>
     <string name="flush_pending">Confirm delete (%1$d)</string>
@@ -43,9 +43,9 @@
     <string name="folders_subtitle">Folders live under your chosen storage root and show up in every gallery app.</string>
     <string name="add_folder">Add folder</string>
     <string name="add_folder_title">New folder</string>
-    <string name="rename_folder_title">Rename “%1$s”</string>
+    <string name="rename_folder_title">Rename "%1$s"</string>
     <string name="remove_folder_title">Remove folder?</string>
-    <string name="remove_folder_subtitle">“%1$s” will be removed from the app. Photos that were already moved into it stay in your gallery.</string>
+    <string name="remove_folder_subtitle">"%1$s" will be removed from the app. Photos that were already moved into it stay in your gallery.</string>
     <string name="folder_name_label">Folder name</string>
     <string name="folder_name_placeholder">e.g. Travel 2024</string>
     <string name="folder_path_preview">Path: %1$s</string>
